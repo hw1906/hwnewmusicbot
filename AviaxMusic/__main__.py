@@ -55,8 +55,9 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("AviaxMusic").info("Stopping Aviax Music Bot...")
+    LOGGER("AviaxMusic").info("Stopping Hw Music Bot...")
 
 
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(init())
+
